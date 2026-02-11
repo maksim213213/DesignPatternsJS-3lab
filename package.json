@@ -1,0 +1,26 @@
+{
+  "name": "design-patterns-file-access",
+  "version": "2.0.0",
+  "description": "File Access Management System using Proxy and Command Design Patterns (TypeScript)",
+  "main": "dist/example.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/example.js",
+    "test": "npm run build && node dist/test.js",
+    "dev": "tsc --watch",
+    "clean": "rmdir /s /q dist 2>nul || true"
+  },
+  "keywords": [
+    "design-patterns",
+    "proxy",
+    "command",
+    "typescript",
+    "solid"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,7 +1,4 @@
-/**
- * Экспорт всех команд
- * DRY: централизованная точка экспорта
- */
+
 
 export { BaseCommand } from './BaseCommand';
 export { ReadFileCommand } from './ReadFileCommand';
